@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ramdomView from '../views/ramdomView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/ramdom',
+    name: 'ramdom',
+    component: ramdomView
   },
   {
     path: '/about',
