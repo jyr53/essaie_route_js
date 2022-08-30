@@ -1,5 +1,5 @@
 <template>
-    <div> <a v-on;click="gotToPage">{{  numeroAleatoire  }} bonjour</a></div><br>
+    <div> <a v-on:click="gotToPage">{{  numeroAleatoire  }} bonjour</a></div><br>
     {{  $router  }}
 
 
