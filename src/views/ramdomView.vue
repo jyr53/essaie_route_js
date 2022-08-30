@@ -4,6 +4,7 @@
             <p @click="gotToPage">{{  numeroAleatoire  }} sdghj</p>
         </div><br>
         {{  $router  }}
+        <h1>{{ $store.state.count}}</h1>
     </div>
 
 </template>
