@@ -1,7 +1,10 @@
 <template>
-    <div> <a v-on:click="gotToPage">{{  numeroAleatoire  }} bonjour</a></div><br>
-    {{  $router  }}
-
+    <div>
+        <div>
+            <p @click="gotToPage">{{  numeroAleatoire  }} sdghj</p>
+        </div><br>
+        {{  $router  }}
+    </div>
 
 </template>
 <script>
@@ -18,6 +21,7 @@ export default {
     },
     methods: {
         goToPage() {
+            console.log('qzsertyui')
             this.$router.push('/');
         }
     }
